@@ -1,4 +1,4 @@
-local Repo = "https://github.com/ElonMusk136/MSV4UI"
+local Repo = "https://github.com/deividcomsono/Obsidian"
 local Library = loadstring(game:HttpGet(Repo .. "Library.lua"))()
 local SaveManager = loadstring(game:HttpGet(Repo .. "addons/SaveManager.lua"))()
 local ThemeManager = loadstring(game:HttpGet(Repo .. "addons/ThemeManager.lua"))()
@@ -394,7 +394,7 @@ LeftGroupBox:AddButton({
 })
 local PartialGod = false
 LeftGroupBox:AddToggle("PartialGod", {
-	Text = "🤓",
+	Text = "打开有惊喜",
 	Default = false,
 	Disabled = false, 
 	Visible = true, 
